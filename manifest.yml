@@ -1,0 +1,10 @@
+
+---
+applications:
+- name: rabbitmq-go-app
+  memory: 128M
+  instances: 1
+  command: main
+  env:
+     GOVERSION: go1.8
+     GOPACKAGENAME: app-package-name
